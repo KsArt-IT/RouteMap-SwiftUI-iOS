@@ -10,9 +10,22 @@
 		F17935D02D4E9C4D00324911 /* RouteMap-SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RouteMap-SUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F1F25D282D5100840083F309 /* Exceptions for "RouteMap-SUI" folder in "RouteMap-SUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F17935CF2D4E9C4D00324911 /* RouteMap-SUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F17935D22D4E9C4D00324911 /* RouteMap-SUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F1F25D282D5100840083F309 /* Exceptions for "RouteMap-SUI" folder in "RouteMap-SUI" target */,
+			);
 			path = "RouteMap-SUI";
 			sourceTree = "<group>";
 		};
@@ -255,8 +268,10 @@
 				DEVELOPMENT_TEAM = 56FX6RXGXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RouteMap-SUI/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Route on Map";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to determine the user's current location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,8 +306,10 @@
 				DEVELOPMENT_TEAM = 56FX6RXGXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RouteMap-SUI/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Route on Map";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use location to determine the user's current location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
